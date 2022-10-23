@@ -1,0 +1,96 @@
+body{
+    background-image: url('../img/backGround.png');
+    background-size: cover;
+    
+}
+h1{
+    font-size: 40px;
+    color: #d0bbd8;
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 40px;
+    color: #eac2f9;
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+}
+section{
+  width: 60%;
+  margin: auto;
+  padding-top: 4%;
+  text-align: center;
+}
+img{
+    width: 17%;
+    border-radius: 13%;
+}
+img:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transform: .3s;
+    transform: rotateY(40deg);
+}
+button{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 8%;
+    background-color: #f0ecfc;
+    background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+    line-height: 28px;
+    border: none;
+}
+button:before, button:after{
+    position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #c797eb;
+  transition: all 0.3s ease;
+}
+button:before{
+    height: 0%;
+    width: 2px;
+ }
+ button:after {
+   width: 0%;
+   height: 2px;
+ }
+ button:hover:before {
+   height: 100%;
+ }
+ button:hover:after {
+   width: 100%;
+ }
+ button:hover{
+   background: transparent;
+ }
+ button span:hover{
+   color: #c797eb;
+ }
+ button span:before,
+ button span:after {
+   position: absolute;
+   content: "";
+   left: 0;
+   top: 0;
+   background: #c797eb;
+   transition: all 0.3s ease;
+ }
+ button span:before {
+   width: 2px;
+   height: 0%;
+ }
+ button span:after {
+   height: 2px;
+   width: 0%;
+ }
+ button span:hover:before {
+   height: 100%;
+ }
+ button span:hover:after {
+   width: 100%;
+ }
+ span{
+    font-family: 'Courgette', cursive, Arial, Helvetica, sans-serif;
+    color: #594a60;
+ }
