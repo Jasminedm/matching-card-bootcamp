@@ -1,22 +1,15 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+###♠️Matching Card Game
+#### Here is a well made matching card game with a nice design<hr>https://matchingcardgame-jasminedm.netlify.app/
+![Here is a well made matching card game with a nice design<hr>https://matchingcardgame-jasminedm.netlify.app/](https://i.imgur.com/GuL2Zsm.jpg)
 
-### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
+This matching card game allows the user to play a memory matching game. Flip cards over attempting to remember where their matches are as they are hidden until all cards are flipped and matched. Then start over!
+<hr>
+I used an card api to complete this project! My code is requesting that this api deal two decks with the same cards in them. Then I use a second fetch to tell the api how many cards to deal from each deck. When the cards are clicked, the img src is changed to the src of the cards from the api to represent the flipping of a card. If the cards match they will stay face up, if not they will flip back over when the next card is chosen. When all cards are face up the game will notify the user that its over! There is a restart button to play again!
 
-### How to submit your code for review:
+Skills:  JS / HTML / CSS/ API
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+
+
+
